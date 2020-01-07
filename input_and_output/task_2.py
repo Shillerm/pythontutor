@@ -3,6 +3,6 @@
 
 b = int(input())
 h = int(input())
-s = 2 / 2 * b * h
+s = 1 / 2 * b * h
 
 print(s)
