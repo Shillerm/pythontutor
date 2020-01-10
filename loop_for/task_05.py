@@ -4,6 +4,5 @@
 N = int(input())
 sum = 0
 for number in range(N):
-    number = int(input())
-    sum += number
+    sum += int(input())
 print(sum)

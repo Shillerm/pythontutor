@@ -2,6 +2,5 @@
 
 sum = 0
 for i in range(10):
-    number = int(input())
-    sum += number
+    sum += int(input())
 print(sum)

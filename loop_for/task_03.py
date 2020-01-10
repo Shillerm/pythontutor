@@ -3,10 +3,5 @@
 
 A = int(input())
 B = int(input())
-
-if A % 2 != 0:
-    for number in range(A, B - 1, - 2):
-        print(number)
-elif A % 2 == 0:
-    for number in range(A - 1, B - 1, - 2):
-        print(number)
+for i in range(A - (A + 1) % 2, B - B % 2, -2):
+    print(i, end=' ')
